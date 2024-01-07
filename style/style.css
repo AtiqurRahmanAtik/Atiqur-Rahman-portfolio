@@ -11,7 +11,7 @@ font-size: 45px;
 
 font-weight: 800;
 margin-left: 230px;
-
+text-transform:uppercase;
 
 
 
@@ -45,8 +45,31 @@ nav ul>li{
 font-size: 20px;
 font-weight: 400;
 
+
+}
+nav li > .child_list{
+ display: none;
 }
 
+nav li:hover >.child_list{
+    display:block;
+
+}
+.child_list >li{
+list-style: none;
+padding: 5px;
+}
+
+.child_list{
+    background-color: aqua;
+    width: 45%;
+    border-radius: 10px;
+}
+
+nav li ul>li:hover{
+    background-color: #FD6E0A;
+    display: inline;
+}
 .nav_btn{
     width: 150px;
 height: 64px;

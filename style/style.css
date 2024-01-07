@@ -47,6 +47,9 @@ font-weight: 400;
 
 
 }
+
+/* drop_down menu */
+
 nav li > .child_list{
  display: none;
 }
@@ -70,6 +73,9 @@ nav li ul>li:hover{
     background-color: #FD6E0A;
     display: inline;
 }
+
+/* End dropdown menu */
+
 .nav_btn{
     width: 150px;
 height: 64px;
@@ -179,6 +185,58 @@ padding-right: 10px;
     /* width: 584px;
 height: 676px; */
 
+}
+
+/* About section */
+.main_about{
+    width: 82%;
+    height: 450px;
+    background-color: rgb(215, 215, 115);
+    margin: 0 auto;
+}
 
 
+.About_contain{
+color: #181818;
+margin-top:100px ;
+text-align: center;
+font-size: 35px;
+font-weight: 700px;
+margin-bottom: 0px;
+}
+
+.about_des{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 827px;
+padding-left:  120px ;
+margin-top:20px ;
+margin-bottom: 0px;
+}
+.about_info{
+    margin-top: 25px;
+    display: flex;
+ gap: 40px;
+    padding:30px 120px 50px 120px ;
+    justify-content: center;
+  
+   
+}
+.name{
+    color: #757575;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 0px;
+}
+.name_chid{
+    color:  #474747;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+margin-top: 3px;
 }
